@@ -25,7 +25,7 @@ decodeFunc = @(nodePot,edgePot,edgeStruct) ...
 T = 10;
 
 % Number of folds
-nFolds = 1;%length(folds);
+nFolds = length(folds);
 
 % Error stats
 statCols = {'Error','Prec','Rec','F1'};
